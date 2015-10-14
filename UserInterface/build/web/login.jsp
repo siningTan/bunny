@@ -28,9 +28,9 @@ and open the template in the editor.
                         <h1>DABAO</h1>
                         <form class="form-signin" action ='(loginservlet)'>
                             
-                           <label for="inputEmail" class="sr-only">Email address</label>
-                           <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                           <label for="inputPassword" class="sr-only">Password</label>
+                            <label for="inputEmail" class="sr-only"><font face="verdana">Username</font></label>
+                           <input type="email" name="inputEmail" class="form-control" placeholder="Username" required autofocus>
+                           <label for="inputPassword" class="sr-only"><font face="verdana">Password</font></label>
                            <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
 
                            <div class="checkbox">
@@ -39,8 +39,8 @@ and open the template in the editor.
                                </label>
                            </div>
 
-                           <button class="btn btn-primary btn-block" type="submit" name="sign-in">Sign in</button>
-                           <button class="btn btn-primary btn-block" type="submit" name="sign-up" >Register as a New User</button>
+                           <button class="btn btn-primary btn-block" type="submit" name="sign-in"><font face="verdana">Sign in</font></button>
+                           <button class="btn btn-primary btn-block" type="submit" name="sign-up" ><font face="verdana">Register as a New User</font></button>
 
                     </div> <!-- /container -->
 

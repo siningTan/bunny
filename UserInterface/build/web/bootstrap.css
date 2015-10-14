@@ -130,6 +130,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+  font: Urban_Elegance_Bold;
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -3123,12 +3124,11 @@ select[multiple].input-lg {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-color: #dc1c2c;
-  border-color: #dc1c2c;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
 }
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3166,15 +3166,15 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #e73f4d;
-  background-color: #e73f4d;
-  border-color: #e73f4d;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #e73f4d;
-  background-color: #e73f4d;
-  border-color: #e73f4d;
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
 }
 .btn-default:hover {
   color: #333;
@@ -3232,6 +3232,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
+  font: Urban_Elegance_Bold;
   margin-top: 5px;
   margin-bottom: 5px;
   color: #fff;
@@ -3619,6 +3620,7 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 3px;
 }
 .btn-block {
+  font: Urban_Elegance_Bold;
   background-color: #dc1c2c;
   border-color: #dc1c2c;
   margin: 0 auto;
@@ -3631,6 +3633,7 @@ fieldset[disabled] .btn-link:focus {
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
+  font: Urban_Elegance_Bold;
   width: 100%;
 }
 .fade {
@@ -3682,8 +3685,8 @@ tbody.collapse.in {
 .dropup,
 .dropdown {
 //background colour no effect
-  border-radius: 5px;
   height: 40px;
+  width:0;
   margin: 0 auto;
   margin-bottom: 2px;
   background-color: #dc1c2c;
@@ -3694,7 +3697,7 @@ tbody.collapse.in {
   margin-bottom: 5px;
   border: 10px;
   //background-color: #000000;
-  //outline: 1px;
+  outline: 0px;
 }
 .dropdown-menu {
   background-color: #dc1c2c;

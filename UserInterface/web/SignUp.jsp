@@ -31,35 +31,24 @@ and open the template in the editor.
 
                             <div class="table">
                                 <br>
-                                <label for="inputUsername" class="sr-only-table">Username</label>
+                                <label for="inputUsername" class="sr-only-table"><font face="verdana">Username</font></label>
                                 <input type="text" name="inputUsername" class="form-control-table" placeholder="Username" required autofocus>
                                 <label for="inputName" class="sr-only-table">Name</label>
                                 <input type="text" name="inputName" class="form-control-table" placeholder="Name" required autofocus>
                                 <label for="inputPassword" class="sr-only-table">Password</label>
                                 <input type="password" name="inputPassword" class="form-control-table" placeholder="Password" required autofocus>
+                                <p style="color:white"><font face="verdana" size='1'>Password must be no shorter than 7 characters</font></p>
                                 <label for="inputConfirmPassword" class="sr-only-table">Confirm Password</label>
                                 <input type="password" name="inputConfirmPassword" class="form-control-table" placeholder="Confirm Password" required autofocus>
                                 <label for="inputCOntactNumber" class="sr-only-table">Contact Number</label>
                                 <input type="text" name="inputContactNumber" class="form-control-table" placeholder="Contact Number" required autofocus>
-                                <label for="inputBankAccountNumber" class="sr-only-table">Bank Account Number</label>
-                                <input type="text" name="inputBankAccountNumber" class="form-control-table" placeholder="Bank Account Number" required autofocus>
+                                <p style="color:white"><font face="verdana" size='1'>No spacing between numbers</font></p>
+                                <label for="inputCOntactNumber" class="sr-only-table">Company Code</label>
+                                <input type="text" name="inputContactNumber" class="form-control-table" placeholder="Company Code" required autofocus>
                                 <br>
                             </div>
                             <br>
-                            
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" >
-                                    Company
-                                </button><span class="caret"></span>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
-                                    
-                            </div>
-                            <button class="btn btn-primary btn-block" type="submit" name="sign-up">Register</button>
+                            <button class="btn btn-primary btn-block" type="submit" name="sign-up"><font face="verdana">Register</font></button>
                     </div> <!-- /container -->
 
                     <div class="mastfoot">
