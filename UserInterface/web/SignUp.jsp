@@ -49,8 +49,9 @@ and open the template in the editor.
                             </div>
                             <br>
                             <button class="btn btn-primary btn-block" type="submit" name="sign-up"><font face="verdana">Register</font></button>
+                        </form>
                     </div> <!-- /container -->
-
+                    
                     <div class="mastfoot">
                         <div class="inner">
                             <p>Created by Eureka!</p>
