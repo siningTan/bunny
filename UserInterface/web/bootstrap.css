@@ -2299,6 +2299,7 @@ th {
 .table {
   border-radius: 15px;
   background-color: #dc1c2c;
+  padding-bottom: 20px;
   width: 50%;
   max-width: 100%;
   margin: 0 auto; 
@@ -3168,8 +3169,8 @@ select[multiple].input-lg {
   }
 }
 .left {
-    width: 80px;
-    margin-left: 3px;
+    width: 200px;
+    margin-left: -0.2px;
     float:left;
     position:relative;
     height: 3em;
@@ -3188,9 +3189,11 @@ select[multiple].input-lg {
 }
 
 .right {
-    width: 80px;
-    margin-left: 20px;
+    width: 200px;
+    margin-left: 400px;
     float:left;
+    position:relative;
+    height: 3em;
 }
 
 .btn {
@@ -5287,7 +5290,7 @@ a.badge:focus {
   font-family:verdana;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 0px;
+  margin-top: 25px;
   margin-bottom: 20px;
   color: inherit;
   background-color: #f8f8f8;
@@ -5337,27 +5340,33 @@ a.badge:focus {
   font-family:verdana;
   display:inline;
   margin-right:5px;
+  margin-bottom:10px;
   padding: 20px 20px 20px 20px;
+  font-size: 16px;
   color: inherit;
   background-color:#f8f8f8;
-  left:auto;
+  left:0;
 }
-.minitron h1,
-.minitron .h1 {
-  font-size: 25px;
-  color: inherit;
-}
+
 .minitron p {
   padding-right:10px;
   font-size: 35px;
   font-weight: 200;
 }
-.minitron a {
+.minitron a{
   padding: 10px 10px 10px 10px;
   color:inherit;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 200;
 }
+.minitron.active,
+.minitron.active:hover,
+.minitron.active:focus {
+  color: #fff;
+  background-color: #dc1c2c;
+  border-color: #dc1c2c;
+}
+
 .minitron > hr {
   border-top-color: #d5d5d5;
 }
@@ -7147,4 +7156,9 @@ button.close {
 
 div {
     font-family: Urban_Elegance_Bold;
+}
+owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
