@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="bootstrap.js"></script>
-        <script src="bootstrap-switch.js"></script>
+        <script src="owl.carousel.js"></script>
         <script src="jquery-1.11.3.js"></script>
         
         <link rel="stylesheet" href ="bootstrap.css" />
+        <link rel="stylesheet" href ="owl.theme.css" />
+        <link rel="stylesheet" href ="owl.carousel.css" />
         <link rel="stylesheet" href ="cover.css" />
         <link rel="stylesheet" href ="bootstrap-switch.css"/>
 
@@ -40,13 +42,8 @@
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
          </nav>
-         <div id="owl-demo" class="owl-carousel owl-theme">
 
-             <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
-             <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
-             <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
-
-         </div>
+        
          <div class="container">
 
              <div class="minitron">

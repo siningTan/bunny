@@ -37,6 +37,16 @@ and open the template in the editor.
                             <button class="btn btn-primary btn-block" type="submit" name="sign-in"><font face="verdana">Sign in</font></button>
                             <button class="btn btn-primary btn-block" type="submit" name="sign-up" ><font face="verdana">Register as a New User</font></button>
                         </form>
+                        <br>
+                        <div class="alert alert-success" role="alert">
+                        <span class="sr-only">Success:</span>
+                        Hi there! Your account has been created.
+                        </div>
+
+                        <div class="alert alert-danger" role="alert">
+                        <span class="sr-only">Error:</span>
+                        Invalid Username/password!
+                        </div>
                     </div> <!-- /container -->
 
                     <div class="mastfoot">
