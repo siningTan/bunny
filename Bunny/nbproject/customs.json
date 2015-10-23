@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "aria-expanded": {
+            "context": "button"
+        },
+        "aria-multiselectable": {
+            "context": "div"
+        }
+    }
+}
