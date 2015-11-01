@@ -42,14 +42,14 @@
               <form class="form-signin" action ='SignUpServlet'>
                   <div class="table">
                       <br>
-                      <input type="text" name="inputUsername" class="form-control-table" placeholder="Username" required autofocus>
-                      <input type="text" name="inputName" class="form-control-table" placeholder="Name" required autofocus>
-                      <input type="text" name="inputPassword" class="form-control-table" placeholder="Password" required autofocus>
+                      <input type="textBox" name="inputUsername" class="form-control-table" placeholder="Username" required autofocus>
+                      <input type="textBox" name="inputName" class="form-control-table" placeholder="Name" required autofocus>
+                      <input type="textBox" name="inputPassword" class="form-control-table" placeholder="Password" required autofocus>
                       <center><p style="color:white"><font face="verdana" size='1'>*Password must be no shorter than 7 characters</font></p></center>
-                      <input type="text" name="inputconfirmPassword" class="form-control-table" placeholder="Confirm Password" required autofocus>
-                      <input type="text" name="inputContactNumber" class="form-control-table" placeholder="Contact Number" required autofocus>
+                      <input type="textBox" name="inputconfirmPassword" class="form-control-table" placeholder="Confirm Password" required autofocus>
+                      <input type="textBox" name="inputContactNumber" class="form-control-table" placeholder="Contact Number" required autofocus>
                       <center><p style="color:white"><font face="verdana" size='1'>*No spacing between numbers</font></p></center>
-                      <input type="text" name="inputCompanyCode" class="form-control-table" placeholder="Company Code" required autofocus>
+                      <input type="textBox" name="inputCompanyCode" class="form-control-table" placeholder="Company Code" required autofocus>
                   </div>
                   <br>
                   <button class="btn btn-primary btn-block" type="submit" name="sign-up"><font face="verdana">Register</font></button>

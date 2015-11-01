@@ -95,7 +95,7 @@
                                 <form class="form-payment">
                                     <h1><span class="glyphicon glyphicon-ok-circle" style="color:#dc1c2c"></span></h1><br>
                                     Your order has been confirmed!<br><br>
-                                    Please make your payment here:
+                                    Please view your orders here:
                                 <button class="btn btn-primary btn-block" type="submit" name="payment"><font face="verdana">Payment</font></button>
                                 </form>
                             </div>

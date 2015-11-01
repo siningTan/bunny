@@ -1,49 +1,36 @@
-<%-- 
-    Document   : homepage
-    Created on : Oct 20, 2015, 7:18:53 PM
-    Author     : Si Ning
---%>
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <script src="resources/js/jquery-1.11.3.js"></script>  
-    <script src="resources/js/jquery-1.11.3.min.js"></script>   
-         <script src="resources/js/transition.js"></script> 
-     <script src="resources/js/dabao.js"></script> 
-     <script src="resources/js/bootstrap.min.js"></script>
- 
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modal</title>
+  <link href="resources/css/dabao.css" rel="stylesheet">
+  <link href="resources/css/starter-template.css" rel="stylesheet">
+  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+  
 
-    
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-    <title>DABAO Food Menu</title>
-    <!-- Bootstrap core CSS -->
-    <link href="resources/css/dabao.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="resources/css/starter-template.css" rel="stylesheet">
-    <link href="resources/css/bootstap.theme.css" rel="stylesheet">
-    <link href="resources/css/bootstap.min.css" rel="stylesheet">
+  <style>
+    #tall {
+      height: 1500px;
+      width: 100px;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<body>
 
-    
-   
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-    <nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -78,87 +65,201 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
     </nav>
-    <br>
+
+<div class="container">
+
+  <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Fried Chicken Cutlet</h4>
+        </div>
+        <div class="modal-body">
+            <div class ="row">
+            <h4>Quantity:</h4>
+            <input type ="text" name="quantity" value ="1"/>
+            </div>
+            <hr>
+            <div class ="row">
+            <h4>Choose Two Side Dish</h4>
+            <form action = "/test">
+                    <input name = "color" type = "checkbox" value = "r" checked/> French Fries
+                    <input name = "color" type = "checkbox" value = "g" /> Mashed Potato
+                    <input name = "color" type = "checkbox" value = "b" /> Baked Beans
+                    <input name = "color" type = "checkbox" value = "b" /> Coleslaw
+                    
+            </form>
+            </div>
+            <hr>
+            <div class ="row">
+            <h4>Add Ons:</h4>
+            <form action = "/test">
+                    <input name = "color" type = "checkbox" value = "r" checked/> French Fries
+                    <input name = "color" type = "checkbox" value = "g" /> Mashed Potato
+                    <input name = "color" type = "checkbox" value = "b" /> Baked Beans
+                    <input name = "color" type = "checkbox" value = "b" /> Coleslaw
+                    
+            </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Confirm Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Black Pepper Chicken Chop</h4>
+        </div>
+        <div class="modal-body">
+            <div class ="row">
+            <h4>Quantity:</h4>
+            <input type ="text" name="quantity" value ="1"/>
+            </div>
+            <hr>
+            <div class ="row">
+            <h4>Choose Two Side Dish</h4>
+            <form action = "/test">
+                    <input name = "color" type = "checkbox" value = "r" checked/> French Fries
+                    <input name = "color" type = "checkbox" value = "g" /> Mashed Potato
+                    <input name = "color" type = "checkbox" value = "b" /> Baked Beans
+                    <input name = "color" type = "checkbox" value = "b" /> Coleslaw
+                    
+            </form>
+            </div>
+            <hr>
+            <div class ="row">
+            <h4>Add Ons:</h4>
+            <form action = "/test">
+                    <input name = "color" type = "checkbox" value = "r" checked/> French Fries
+                    <input name = "color" type = "checkbox" value = "g" /> Mashed Potato
+                    <input name = "color" type = "checkbox" value = "b" /> Baked Beans
+                    <input name = "color" type = "checkbox" value = "b" /> Coleslaw
+                    
+            </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Confirm Order</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<br>
     <div class="container">
         <ol class="left breadcrumb">
             <li><a href="#">Home</a></li>
-            <li class="active">Chomp Chomp</li>
+            <li><a href="#">Chomp Chomp</a></li>
+            <li class="active">Western Food</li>
         </ol>
         <br>
-
-        <div class="jumbotron">
-            <div class="row">
-                <div class="thumbnail">
-                    <img src="resources/pictures/chickenrice.jpg" alt="...">
+        <br>
+        <br>
+            <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-xs-13">
+               <div class="thumbnail">
+                    <img src="resources/pictures/ChickenCutlet.png" alt="...">
                     <div class="caption">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="button" data-toggle="modal" data-target="#myModal">
-                            Chicken Rice
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a class="button" data-toggle="modal" data-target="#myModal1">
+                            Fried Chicken Cutlet
+                        </a>
                     </div>
                 </div>
-                <div class="thumbnail">
-                    <img src="resources/pictures/chickenrice.jpg" alt="...">
-                    <div class="caption">
-                        <a class="button" href="">Chicken Rice</a>
+                 <div class="thumbnail">
+                    <img src="resources/pictures/BlackPepperChickenChop.png" alt="...">
+                   <div class="caption">
+                        <a class="button" data-toggle="modal" data-target="#myModal2">
+                            Black Pepper Chicken Chop
+                        </a>
                     </div>
                 </div>
-                <div class="thumbnail">
-                    <img src="resources/pictures/chickenrice.jpg" alt="...">
-                    <div class="caption">
-                        <a class="button" href="">Chicken Rice</a>
+                 <div class="thumbnail">
+                    <img src="resources/pictures/DoryFish.png" alt="...">
+                   <div class="caption">
+                        <a class="button" data-toggle="modal" data-target="#myModal2">
+                            Dory Fish
+                        </a>
                     </div>
                 </div>
-                <div class="thumbnail">
-                    <img src="resources/pictures/chickenrice.jpg" alt="...">
+                 <div class="thumbnail">
+                    <img src="resources/pictures/fishAndChips.png" alt="...">
                     <div class="caption">
-                        <a class="button" href="">Chicken Rice</a>
+                        <a class="button" data-toggle="modal" data-target="#myModal2">
+                            Fish and Chips
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="thumbnail">
-                    <img src="resources/pictures/chickenrice.jpg" alt="...">
+                </div>
+                
+                                <div class="col-xs-13">
+               <div class="thumbnail">
+                    <img src="resources/pictures/Steak.png" alt="...">
                     <div class="caption">
-                        <a class="button" href="">Chicken Rice</a>
+                        <a class="button" data-toggle="modal" data-target="#myModal1">
+                            Steak
+                        </a>
                     </div>
                 </div>
-                <div class="thumbnail">
-                    <img src="resources/pictures/chickenrice.jpg" alt="...">
-                    <div class="caption">
-                        <a class="button" href="">Chicken Rice</a>
+                 <div class="thumbnail">
+                    <img src="resources/pictures/Pork Chop with Mushroom Sauce.png" alt="...">
+                   <div class="caption">
+                        <a class="button" data-toggle="modal" data-target="#myModal2">
+                            Pork Chop w Mushroom Sauce
+                        </a>
                     </div>
                 </div>
-            </div>
-
+                 <div class="thumbnail">
+                    <img src="resources/pictures/Spaghetti with Tomato Sauce.png" alt="...">
+                   <div class="caption">
+                        <a class="button" data-toggle="modal" data-target="#myModal2">
+                            Tomato Sauce Spaghetti
+                        </a>
+                    </div>
+                </div>
+                 <div class="thumbnail">
+                    <img src="resources/pictures/Spaghetti Carbonara.png" alt="...">
+                    <div class="caption">
+                        <a class="button" data-toggle="modal" data-target="#myModal2">
+                           Sphagetti Carbonara
+                        </a>
+                    </div>
+                </div>
+                </div>
         </div>
     </div>
+</div>
+</div>
+<!-- JavaScript Includes -->
+<script src="resources/js/jquery-1.11.3.min.js"></script>
+<script src="resources/js/transition.js"></script>
+<script src="resources/js/modal.js"></script>
+<script src="resources/js/dropdown.js"></script>
+<script src="resources/js/tooltip.js"></script>
+<script src="resources/js/popover.js"></script>
+<script src="resources/js/collapse.js"></script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<!-- JavaScript Test -->
+<script>
+$(function () {
+  $('.js-popover').popover()
+  $('.js-tooltip').tooltip()
+  $('#tall-toggle').click(function () {
+    $('#tall').toggle()
+  })
+})
+</script>
+
+</body>
 </html>

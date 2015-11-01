@@ -46,17 +46,11 @@
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Register as a New User</button>
       </form>
-        <div class="alert alert-danger" role="alert">
+            <div class="alert alert-danger" role="alert">
             <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
             <span class="sr-only">Error:</span>
-            Enter a valid email address
-        </div>
-        <div class="alert alert-success" role="alert">
-            <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
-            <span class="sr-only">Success:</span>
-            Sign-up successful!
+            Invalid Username/Password
         </div>
 
     </div> <!-- /container -->

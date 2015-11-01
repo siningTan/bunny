@@ -42,7 +42,7 @@
         <h2 class="form-signin-heading">Welcome to...</h2>
         <h1 class="form-signin-heading">DABAO</h1><br>
         <label for="inputEmail" class="sr-only">Username</label>
-        <input type="text" id="inputUserName" class="form-control" placeholder="Username" required autofocus>
+        <input type="textBox" id="inputUserName" class="form-control" placeholder="Username" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>

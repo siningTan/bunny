@@ -43,7 +43,7 @@ body {
   margin-left: 15px;
   margin-bottom: -30px;
 }
-.form-signin input[type="text"] {
+.form-signin input[type="textBox"] {
   margin-bottom: 2px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
